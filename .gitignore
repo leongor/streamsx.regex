@@ -1,0 +1,16 @@
+# project specific excludes
+com.ibm.streamsx.regex/doc
+com.ibm.streamsx.regex/samples
+
+samples/*/output
+/samples/*/doc
+
+# begin streamsx.regex excluded
+.settings
+.toolkitList
+
+## C++ excludes
+# Compiled Object files
+*.slo
+*.lo
+*.o
